@@ -1,0 +1,386 @@
+.bordesrojos{
+    border: 1px solid red;
+}
+
+
+html, body{
+    background-color: black;
+    height: 1500px;
+    margin: 0;
+}
+
+div.top {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0px 15%;
+    }
+div.top img{
+    height: 30px;
+}
+
+div.top a{
+    color: white;
+    text-decoration: none;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(200, 200, 200);
+    width: 100%;
+    height: 90px;
+    }
+
+.logoNegro{
+    max-height: 55px;
+    padding: 0%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    }
+.logoNegro:hover{
+    opacity: 0.5;
+}
+    
+.contenedorgeneral{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15%;
+    
+    }
+.menuybuscar{
+    min-width: 50%;
+}
+
+
+ul.lista{
+    display: flex;
+    list-style: none;
+    margin: 0 0 4px 0;
+    padding: 0;
+    font-size: 22px;
+    justify-content: space-between;
+    }
+
+ul.lista a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul.lista a:hover{
+    color: rgb(190, 220, 255);
+    border-radius: 5px;
+    padding: 0;
+    border: 0;
+    text-shadow: 3px 3px 5px black;
+}
+
+
+.buscarylupa{
+    width: 100%;
+    height: 30px;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cuadrotexto{
+    position: relative;
+    width: 88%;
+    height: 22px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.lupa{
+    width: auto;
+}
+
+.buscarylupa a:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.buscarylupa a{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    
+}
+
+.seccionpromo1{
+    height: 600px;
+    padding: 0px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotogrande{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 650px; */
+    height: 500px;
+
+}
+
+.imgpromo1:hover{
+    box-shadow: 0px 0px 2px 2px rgb(238, 238, 238);
+}
+
+.seleccion:hover{
+    box-shadow: 0px 0px 2px 2px rgb(238, 238, 238);
+}
+
+
+img.imgpromo1{
+    max-width: 100%;
+    min-width: 400px;
+    max-height: 500px;
+    border-radius: 1%;
+}
+
+.descuentosmes{
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content:center;
+    flex-flow: wrap;
+    height: 500px;
+    
+
+}   
+
+
+.fondo1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100%;
+    height: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+.fondo2{
+        background-color: rgb(129, 129, 129);
+        width: 96%;
+        height: 98%;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+.fondo2 div{
+    margin: 0;
+    padding: 0;
+    max-width: 85%;
+    height:183px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -10px;
+}
+
+img.imgpromolateral{
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.textoblanco{
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nombredescuentos{
+    margin: 0%;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.descuento{
+    position: absolute;
+    left: -40px;
+    top: -9px;
+    width: 80px;
+    height: 80px;
+    
+  
+}
+
+.descuento:hover{
+    filter: drop-shadow(2px 2px 2px white);
+}
+
+.porcentajedescuento{
+    position: absolute;
+    left: -25px;
+    top: 8px;
+    transform: rotate(-45deg);
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.etiquetaspopulares{
+    /* margin: 0 15%; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+
+}
+
+.etiquetaspopulares div{
+    width: 100%;
+    margin: 0 15%;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.textoetiquetaspopulares{
+    font-size: larger;
+    list-style: none;
+    display: flex;
+}
+
+.categoriasdestacadas{
+    background-color: rgb(200, 200, 200);
+    height: 420px;
+}
+
+
+.generalcategorias{
+    height: 300px;
+    background-color: white;
+    margin: 30px 15% 0 ;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.titulocategorias{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30px;
+}
+
+
+
+.categorias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 30px;
+    padding: 0;
+    height: 230px;
+
+}
+
+.categorias div{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+.categorias a{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.categorias img{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+   
+}
+
+.categorias img:hover{
+   opacity: 1;
+   animation-name: escala;
+   animation-duration: .5s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   z-index: 2;
+   box-shadow: 0px 0px 2px 2px rgb(133, 133, 133);
+   
+}
+
+@keyframes escala{
+    0%{
+        transform: scale(1.0);
+    }
+    100%{
+        transform: scale(1.02);
+
+    }
+}
+
+
+.seleccion2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seleccion2 p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.titulofotocategorias{
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.textoetiquetaspopulares a{
+    text-decoration: none;
+    color: white;
+}
+
+.textoetiquetaspopulares a:hover{
+    text-decoration: none;
+    color: rgb(190, 220, 255);
+    text-shadow: 1px 1px 2px white;
+    scale: 2;
+}
+
+.teencantaran{
+    height: 800px;
+    margin: 0 15%;
+}
