@@ -1,11 +1,12 @@
 .bordesrojos{
     border: 1px solid red;
+    padding: 0;
 }
 
 
 html, body{
     background-color: black;
-    height: 1500px;
+    height: 2250px;
     margin: 0;
 }
 
@@ -301,6 +302,7 @@ img.imgpromolateral{
     margin: 0 0 30px;
     padding: 0;
     height: 230px;
+   
 
 }
 
@@ -308,6 +310,7 @@ img.imgpromolateral{
     margin: 0;
     padding: 0;
     height: 100%;
+    
 }
 
 
@@ -383,4 +386,217 @@ img.imgpromolateral{
 .teencantaran{
     height: 800px;
     margin: 0 15%;
+    padding: 0;
+}
+
+.logocirculo img{
+    width: 45px;
+    padding: 0;
+    margin: 0;
+}
+.circulocentrado{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.mediocirculo{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(200, 200, 200) ;
+    border-radius: 0 0 50px 50px;
+}
+
+.bannerencantaran{
+    display: flex;
+    align-items: center;
+    background-color: rgb(200, 200, 200) ;
+    width: 200px;
+    height: 45px;
+    border-radius: 0 20px 20px 0;
+
+}
+
+.productos{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+
+.cuadroproducto{
+    margin: 10px;
+    border-radius: 10px;
+    height: 40%;
+    width: 20%;
+    padding: 0px 10px;
+    background-color: white;
+}
+
+.cuadroproducto p{
+    padding: 0%;
+    margin: 3px 0;
+}
+
+/* .cuadroproducto div{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   
+} */
+
+.tachado{
+    text-decoration: line-through;
+    color: rgb(158, 158, 158);
+    padding: 0%;
+    
+}
+.precio{
+    font-size: 25px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.descripcion{
+    font-size: small;
+    font-family: sans-serif;
+}
+
+
+.marcoseleccion >div:hover{
+    box-shadow: 0px 0px 3px 5px rgb(214, 214, 214);
+}
+
+.imagencuadrada {
+    padding: 10px 0 0 0;
+    margin: 0;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    object-position: 0px -65px ;
+}
+
+.imagencuadradavertical {
+    padding: 10px 0 0 0;
+    margin: 0;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    object-position: -10px 0px ;
+}
+
+
+.contenedorcora {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.circuloblancocora{
+    display: flex;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.473);
+    width: 35px;
+    height: 35px;
+    border-radius: 23px;
+    right: 2px;
+    top: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.circuloblancocora img{
+    height: 25px;
+    padding: 0;
+    margin: 4px 0 0 0;
+}
+
+.pestana{
+    background-color: rgb(200, 200, 200);
+    width: 130px;
+    text-align: center;
+    margin: auto;
+    padding: 2px 0;
+    border-radius: 40px 40px 0 0;
+    }
+
+.pestana p{
+    margin: 0px;
+    padding: 0;
+    font-size: 25px;
+}    
+
+.cintasitios{
+    background-color: rgb(200, 200, 200);
+    margin: 0;
+    padding: 0;
+}
+.contenedorsitios{
+    margin: 0;
+    padding: 50px 15%;
+    display: flex;
+    /* height: 120px; */
+    justify-content: space-between;
+}
+.contenedorsitios ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorsitios a{
+    text-decoration: none;
+    color: gray;
+}
+
+.contenedorsitios a:hover{
+    color: rgb(42, 81, 165);
+}
+
+.contenedorsitios li{
+    color: gray;
+    padding: 3px;
+    font-size: large;
+}
+.contenedorsitios h2{
+    padding: 6px 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+}
+
+.finalpagina{
+    margin: 0;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center; 
+}
+
+.finalpagina a{
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.finalpagina img{
+    height: 40px;
+    padding: 0px 0;
 }
